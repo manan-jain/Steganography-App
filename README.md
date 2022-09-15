@@ -19,8 +19,11 @@ Image Steganography is widely used for hiding a message image into a cover image
 
 ## FLOW CHART
 
-[comment]: <> (![here]&#40;https://github.com/lukefire5156/Steganography-App/blob/master/SS/flowchart.png&#41;)
-[ flowchart](https://user-images.githubusercontent.com/62428616/190418227-05b44f89-318d-4630-bc5d-546cd7a68a04.png)
+[comment]: <> ([comment]: <> &#40;![here]&#40;https://github.com/lukefire5156/Steganography-App/blob/master/SS/flowchart.png&#41;&#41;)
+
+[comment]: <> ([ flowchart]&#40;https://user-images.githubusercontent.com/62428616/190418227-05b44f89-318d-4630-bc5d-546cd7a68a04.png&#41;)
+
+<img src="https://user-images.githubusercontent.com/62428616/190420742-e13f33e5-145a-4ded-b863-4ca7fa17c18e.png">
 
 
 
