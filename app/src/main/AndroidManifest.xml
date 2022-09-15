@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.manan.imgtextsteganosoftware">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="alexparunov"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
+        <activity android:name="app.manan.imgtextsteganosoftware.MainActivity">
+        </activity>
+        <activity
+            android:name="app.manan.imgtextsteganosoftware.activities.encrypt.EncryptImageActivity"
+            android:parentActivityName="app.manan.imgtextsteganosoftware.MainActivity" />
+        <activity
+            android:name="app.manan.imgtextsteganosoftware.activities.encrypt.EncryptActivity"
+            android:parentActivityName="app.manan.imgtextsteganosoftware.MainActivity" />
+        <activity
+            android:name="app.manan.imgtextsteganosoftware.activities.stego.StegoActivity"
+            android:parentActivityName="app.manan.imgtextsteganosoftware.activities.encrypt.EncryptActivity" />
+        <activity
+            android:name="app.manan.imgtextsteganosoftware.activities.decrypt.DecryptActivity"
+            android:parentActivityName="app.manan.imgtextsteganosoftware.MainActivity" />
+        <activity
+            android:name="app.manan.imgtextsteganosoftware.activities.decrypt.DecryptResultActivity"
+            android:parentActivityName="app.manan.imgtextsteganosoftware.MainActivity" />
+        <activity android:name="app.manan.imgtextsteganosoftware.WelcomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
