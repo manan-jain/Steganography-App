@@ -20,12 +20,11 @@ Image Steganography is widely used for hiding a message image into a cover image
 ## FLOW CHART
 
 [comment]: <> (![here]&#40;https://github.com/lukefire5156/Steganography-App/blob/master/SS/flowchart.png&#41;)
-
-[here]![flowchart](https://user-images.githubusercontent.com/62428616/190418227-05b44f89-318d-4630-bc5d-546cd7a68a04.png)
-
+[flowchart](https://user-images.githubusercontent.com/62428616/190418227-05b44f89-318d-4630-bc5d-546cd7a68a04.png)
 
 
-[comment]: <> (<img src="https://github.com/lukefire5156/Steganography-App/blob/master/SS/Screenshot_20200604-152706.png" width="250" height="400">)
+
+<img src="https://user-images.githubusercontent.com/62428616/190418770-78849159-51c3-4706-801d-4fe9f793569e.png" width="250" height="400">
 
 [comment]: <> (<img src="https://github.com/lukefire5156/Steganography-App/blob/master/SS/Screenshot_20200604-154140.png" width="250" height="400">)
 
